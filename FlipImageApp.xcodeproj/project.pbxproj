@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA01069028FFF53400257D1B /* VerticalCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01068F28FFF53400257D1B /* VerticalCheckBox.swift */; };
+		FA0106952900029600257D1B /* RotateButtonRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0106942900029600257D1B /* RotateButtonRight.swift */; };
+		FA0106972900086D00257D1B /* RotateButtonLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0106962900086D00257D1B /* RotateButtonLeft.swift */; };
 		FA38B89C28FFD79000DD8F5A /* FlipImageAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38B89B28FFD79000DD8F5A /* FlipImageAppApp.swift */; };
 		FA38B89E28FFD79000DD8F5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38B89D28FFD79000DD8F5A /* ContentView.swift */; };
 		FA38B8A028FFD79100DD8F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA38B89F28FFD79100DD8F5A /* Assets.xcassets */; };
 		FA38B8A328FFD79100DD8F5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA38B8A228FFD79100DD8F5A /* Preview Assets.xcassets */; };
+		FA38B8AE28FFDABF00DD8F5A /* HorizontalCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38B8AD28FFDABF00DD8F5A /* HorizontalCheckBox.swift */; };
+		FA6F320E290134F800112CF0 /* ModifiedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F320D290134F800112CF0 /* ModifiedView.swift */; };
+		FA6F32102901651400112CF0 /* OriginalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F320F2901651400112CF0 /* OriginalImage.swift */; };
+		FA6F32122901731500112CF0 /* InvertedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F32112901731500112CF0 /* InvertedImage.swift */; };
+		FA6F32162901755400112CF0 /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F32152901755400112CF0 /* ClearButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA01068F28FFF53400257D1B /* VerticalCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCheckBox.swift; sourceTree = "<group>"; };
+		FA0106942900029600257D1B /* RotateButtonRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateButtonRight.swift; sourceTree = "<group>"; };
+		FA0106962900086D00257D1B /* RotateButtonLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateButtonLeft.swift; sourceTree = "<group>"; };
 		FA38B89828FFD79000DD8F5A /* FlipImageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipImageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA38B89B28FFD79000DD8F5A /* FlipImageAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipImageAppApp.swift; sourceTree = "<group>"; };
 		FA38B89D28FFD79000DD8F5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA38B89F28FFD79100DD8F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA38B8A228FFD79100DD8F5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA38B8AD28FFDABF00DD8F5A /* HorizontalCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCheckBox.swift; sourceTree = "<group>"; };
+		FA6F320D290134F800112CF0 /* ModifiedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedView.swift; sourceTree = "<group>"; };
+		FA6F320F2901651400112CF0 /* OriginalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalImage.swift; sourceTree = "<group>"; };
+		FA6F32112901731500112CF0 /* InvertedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedImage.swift; sourceTree = "<group>"; };
+		FA6F32152901755400112CF0 /* ClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA01069128FFF59000257D1B /* CheckBoxes */ = {
+			isa = PBXGroup;
+			children = (
+				FA38B8AD28FFDABF00DD8F5A /* HorizontalCheckBox.swift */,
+				FA01068F28FFF53400257D1B /* VerticalCheckBox.swift */,
+			);
+			path = CheckBoxes;
+			sourceTree = "<group>";
+		};
+		FA010698290008FD00257D1B /* Arrows */ = {
+			isa = PBXGroup;
+			children = (
+				FA0106942900029600257D1B /* RotateButtonRight.swift */,
+				FA0106962900086D00257D1B /* RotateButtonLeft.swift */,
+			);
+			path = Arrows;
+			sourceTree = "<group>";
+		};
 		FA38B88F28FFD79000DD8F5A = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +87,8 @@
 			children = (
 				FA38B89B28FFD79000DD8F5A /* FlipImageAppApp.swift */,
 				FA38B89D28FFD79000DD8F5A /* ContentView.swift */,
+				FA6F32132901751400112CF0 /* Controllers */,
+				FA38B8B328FFE13000DD8F5A /* Images */,
 				FA38B89F28FFD79100DD8F5A /* Assets.xcassets */,
 				FA38B8A128FFD79100DD8F5A /* Preview Content */,
 			);
@@ -65,6 +101,34 @@
 				FA38B8A228FFD79100DD8F5A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA38B8B328FFE13000DD8F5A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F320D290134F800112CF0 /* ModifiedView.swift */,
+				FA6F320F2901651400112CF0 /* OriginalImage.swift */,
+				FA6F32112901731500112CF0 /* InvertedImage.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FA6F32132901751400112CF0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA01069128FFF59000257D1B /* CheckBoxes */,
+				FA6F32142901752C00112CF0 /* Button */,
+				FA010698290008FD00257D1B /* Arrows */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA6F32142901752C00112CF0 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F32152901755400112CF0 /* ClearButton.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA38B8AE28FFDABF00DD8F5A /* HorizontalCheckBox.swift in Sources */,
+				FA6F32122901731500112CF0 /* InvertedImage.swift in Sources */,
+				FA0106952900029600257D1B /* RotateButtonRight.swift in Sources */,
+				FA6F320E290134F800112CF0 /* ModifiedView.swift in Sources */,
 				FA38B89E28FFD79000DD8F5A /* ContentView.swift in Sources */,
+				FA0106972900086D00257D1B /* RotateButtonLeft.swift in Sources */,
 				FA38B89C28FFD79000DD8F5A /* FlipImageAppApp.swift in Sources */,
+				FA6F32162901755400112CF0 /* ClearButton.swift in Sources */,
+				FA6F32102901651400112CF0 /* OriginalImage.swift in Sources */,
+				FA01069028FFF53400257D1B /* VerticalCheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
